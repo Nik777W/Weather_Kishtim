@@ -2,7 +2,7 @@ name: Weather Kisht Bot
 
 on:
   schedule:
-      -cron: "*/5 * * * *"
+      - cron: "*/5 * * * *"
 env:
     TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
     TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
