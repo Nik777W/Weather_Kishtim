@@ -1,0 +1,9 @@
+name: Weather Kisht Bot
+
+on: [push]
+jobs:
+  GitHub_Good_day_Actions:
+    runs-on: ubuntu-latest
+    steps:
+          - name: Checkout
+            uses: actions/checkout@v4
